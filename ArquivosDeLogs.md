@@ -40,7 +40,7 @@ Cada log mantém essa estrutura:
 Exemplos:
 
 23/03/2016 17:23:16 CONNECT base1 OK
-23/03/2016 17:23:16 CONNECT base2 OK
 
-23/03/2016 17:23:46 CONNECT base1 OK
 23/03/2016 17:23:46 CONNECT base2 ERRO: mensagem de erro
+
+23/03/2016 17:24:16 CONNECT base1 OK
