@@ -91,7 +91,6 @@ Tabela spb_pessoa com a tabela spb_pessoa_fisica:
 
 Tabela spb_pessoa_fisica com a tabela spb_historico_controle_status:
  - pfi_id PK
- - pfi_pes_id FK
  - pfi_cpf
  - pfi_rg
  - pfi_historico_controle_status
