@@ -77,3 +77,20 @@ Tabela spb_historico_sms_processando_operadora:
  - hpo_id PK
  - hpo_total
  - hpo_data
+
+
+###Nomenclatura para chaves estrageiras:
+
+Exemplos:
+
+Tabela spb_pessoa com a tabela spb_pessoa_fisica:
+ - pes_id PK
+ - pes_pfi_id FK
+ - pes_nome
+ - pes_data_cadastro
+
+Tabela spb_pessoa_fisica com a tabela spb_historico_controle_status:
+ - pfi_id PK
+ - pfi_hcs_id FK
+ - pfi_cpf
+ - pfi_rg
