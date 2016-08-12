@@ -29,3 +29,5 @@ Mudar de versão em produção:
 
 
 Adicionar tag para liberações no ambiente de produção
+
+[Documentação Versionamento Semântico](http://semver.org/lang/pt-BR/)
