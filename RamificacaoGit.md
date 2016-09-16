@@ -1,5 +1,4 @@
-Ramificação(branch) no GIT
-==========================
+# Ramificação(branch) no GIT
 
 Lista branch:
 
@@ -47,3 +46,39 @@ Sempre remova o branch depois de utilizar e não envie para o repositório.
 Link documentação: [https://git-scm.com/book/pt-br/v1/Ramifica%C3%A7%C3%A3o-Branching-no-Git](https://git-scm.com/book/pt-br/v1/Ramifica%C3%A7%C3%A3o-Branching-no-Git)
 
 Segue Repósitorio para realizar testes utilizando branch: [https://github.com/Brasilfone/teste-branch.git](https://github.com/Brasilfone/teste-branch.git)
+
+### Início de trabalho com branch
+
+1. Criar o branch **develop** e um branch de **trabalho**
+
+        git branch develop
+        git branch trabalho
+
+### Fluxo para subir arquivos para o GIT
+
+1. Commitar os arquivos do branch **trabalho**
+
+        git checkout trabalho
+        git add .
+        git commit -m "mensagem"
+
+2. Entrar no branch **develop** e fazer o merge com o branch de **trabalho**
+
+        git checkout develop
+        git merge trabalho
+
+3. Executar o push no branch **develop**
+
+        git push origin develop
+
+### Fluxo para baixar arquivos do GIT
+
+1. Entrar no branch **develop** e executar o pull
+
+        git checkout develop
+        git pull origin develop
+
+2. Entrar no branch de **trabalho** e fazer o merge com o **develop**
+
+        git checkout trabalho
+        git merge develop
