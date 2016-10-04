@@ -1,7 +1,6 @@
 __Arquivo descritivo sobre o padrão de marcação para liberação de versão:__
 
-A única regra é sobre a tag h1(# PERFIL #) demarca o perfil para o qual as alterações tem efeito, o texto deve conter no mínimo 1 perfil,
-utilizar as tags hN sómente para o demarcar o perfil;
+A única regra é sobre a tag h1(# PERFIL #) ou (# PERFIL 1, PERFIL 2#) demarca o perfil para o qual as alterações tem efeito, o texto deve conter no mínimo 1 perfil, utilizar as tags hN sómente para o demarcar o perfil;
  
 __Exemplo de texto:__
  
