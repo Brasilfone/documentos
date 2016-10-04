@@ -18,7 +18,7 @@ __Melhorias na tela Y:__
 - Melhoria 2;
 - Melhoria 3;
  
-# Customer #
+# Customer, Financial #
  
 __Melhorias na tela Z:__
 - Melhoria 1;
