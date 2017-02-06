@@ -24,5 +24,8 @@ __Melhorias na tela Z:__
 - Melhoria 1;
 - Melhoria 2;
 - Melhoria 3;
+
+__Nova funcionalidade K:__
+- Funcionalidade K;
  
  
